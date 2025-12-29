@@ -7,3 +7,10 @@ baseurl: "/debian-packaging-mentor"
 
 plugins:
   - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - resources.md
+  - CHANGELOG.md
+  - FAQ.md
+  - SECURITY.md

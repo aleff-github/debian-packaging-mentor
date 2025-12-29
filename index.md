@@ -65,5 +65,8 @@ See: [Resources](resources.md)
 
 ## Disclaimer
 
-This is **not an official Debian project** and does **not replace** sponsor/mentor review.
-Debian Policy remains the final authority.
+Debian is a registered trademark of Software in the Public Interest, Inc.
+This project is not affiliated with or endorsed by the Debian Project.
+
+This is **not an official Debian project** and does **not replace** sponsor/mentor review. Debian Policy remains the final authority.
+

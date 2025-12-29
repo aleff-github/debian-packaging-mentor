@@ -74,3 +74,10 @@ See: [LICENSE](LICENSE)
 
 This project is inspired by the work and documentation of the Debian community,
 including Debian Developers, maintainers, mentors, and contributors worldwide.
+
+---
+
+## Trademark Notice
+
+Debian is a registered trademark of Software in the Public Interest, Inc.
+This project is not affiliated with or endorsed by the Debian Project.
