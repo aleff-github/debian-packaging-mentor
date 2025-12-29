@@ -3,7 +3,7 @@ layout: default
 title: Debian Packaging Mentor
 ---
 
-<img src="/assets/banner.png" alt="Debian Packaging Mentor banner" style="width:100%; border-radius:8px;"/>
+<img src="./assets/banner.png" alt="Debian Packaging Mentor banner" style="width:100%; border-radius:8px;"/>
 
 # Debian Packaging Mentor
 
