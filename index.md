@@ -3,89 +3,67 @@ layout: default
 title: Debian Packaging Mentor
 ---
 
-<img src="./assets/banner.png" alt="Debian Packaging Mentor banner" style="width:100%; border-radius:8px;"/>
+<img src="{{ site.baseurl }}/assets/banner.png" alt="Debian Packaging Mentor banner" style="width:100%; border-radius:10px;" />
 
 # Debian Packaging Mentor
 
-**Debian Packaging Mentor** is an interactive AI assistant that helps developers
-create, review, and improve Debian packages following Debian Policy and
-maintainer best practices.
+Debian Packaging Mentor is an interactive AI assistant that helps developers create, review, and improve Debian packages
+following Debian Policy and maintainer best practices.
 
-It acts like a friendly Debian mentor - guiding you through the packaging
-workflow from the first `debian/` directory to a package that is suitable for
-sponsorship review.
+It acts like a friendly Debian mentor—guiding you from the first `debian/` directory to a package that is suitable for sponsorship review.
+
+<p>
+  <a href="https://chatgpt.com/g/g-695266414e1081918bfbaca955bc975c-debian-packaging-mentor"
+     style="display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;color:#fff;background:#d70751;">
+     Open in ChatGPT
+  </a>
+  <a href="https://github.com/aleff-github/debian-packaging-mentor"
+     style="display:inline-block;margin-left:10px;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;color:#111;background:#eaeaea;">
+     View GitHub Repository
+  </a>
+</p>
 
 ---
 
-## Try the Assistant
+## Quick Start
 
-👉 **Open Debian Packaging Mentor here:**  
-https://chatgpt.com/g/g-695266414e1081918bfbaca955bc975c-debian-packaging-mentor
+Try one of these prompts:
+
+- “Help me create a Debian package for my project. Here is my upstream repo and build system.”
+- “Review my `debian/control` and `debian/rules` for Policy compliance.”
+- “Here is my `lintian` output. What should I fix first?”
+- “I received sponsor feedback on this bug report. Help me understand and apply it.”
+
+---
+
+## What to Share for Best Results
+
+To get accurate, actionable help, paste or attach:
+
+- The full `debian/` directory (all files)
+- Clean build logs (preferably from `sbuild` or `pbuilder`)
+- Full `lintian` output
+- Upstream license files (COPYING/LICENSE) and relevant file headers
 
 ---
 
 ## Key Features
 
-- Assists with Debian packaging structure (`debian/` files)
-- Explains Debian Policy in clear, practical terms
+- Creates and reviews Debian `debian/` packaging files
+- Explains Debian Policy in practical terms
 - Helps interpret and resolve `lintian` messages
-- Suggests improvements aligned with maintainer best practices
-- Works with multiple build systems (CMake, Meson, Autotools, Python, Go, Rust, etc.)
-- Acts as a learning tool for new contributors
-
----
-
-## Who This Is For
-
-- Developers new to Debian packaging  
-- Debian maintainers reviewing packages  
-- Upstream authors preparing Debian packages  
-- Anyone learning Debian Policy and packaging workflows  
-
----
-
-## Important Notes
-
-- This is **not an official Debian project**
-- It does **not replace sponsor or mentor review**
-- Debian Policy remains the final authority
-
-The goal is to help you learn - not automate Debian responsibility 🙂
+- Suggests sponsor-style improvements
+- Supports multiple build systems (CMake, Meson, Autotools, Python, Go, Rust, etc.)
 
 ---
 
 ## Related Resources
 
-- Debian Policy Manual  
-- Debian Developer’s Reference  
-- Guide for Debian Maintainers  
-- lintian documentation  
-
-(If you want, I can link real URLs here later.)
+See: [Resources](resources.md)
 
 ---
 
-## Project Repository
+## Disclaimer
 
-Source, documentation, roadmap, and discussion:  
-👉 https://github.com/aleff-github/debian-packaging-mentor
-
----
-
-## Contributing
-
-Suggestions and improvements are welcome!  
-See the contributing guide in the repository.
-
----
-
-## License
-
-This project is licensed under the GPLv3 License.
-
----
-
-## Acknowledgements
-
-Thanks to the Debian community - developers, maintainers, sponsors, and mentors -
-whose work and documentation made this project possible.
+This is **not an official Debian project** and does **not replace** sponsor/mentor review.
+Debian Policy remains the final authority.

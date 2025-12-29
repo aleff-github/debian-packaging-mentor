@@ -1,5 +1,9 @@
 title: Debian Packaging Mentor
 description: An AI assistant that helps developers create and review Debian packages following Debian Policy and maintainer best practices.
 theme: minima
-logo: /assets/logo.png
-show_downloads: false
+
+url: "https://aleff-github.github.io"
+baseurl: "/debian-packaging-mentor"
+
+plugins:
+  - jekyll-seo-tag
